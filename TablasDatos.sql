@@ -13,6 +13,7 @@ CREATE TABLE clientes (
     apellido_nombre TEXT NOT NULL,
     id_tipo_documento INT NOT NULL,
     nro_documento VARCHAR(20) NOT NULL,
+    acumulado_compras NUMERIC(12,2) DEFAULT 0,
     FOREIGN KEY (id_tipo_documento) REFERENCES tipos_documentos(id_tipo_documento)
 );
 
