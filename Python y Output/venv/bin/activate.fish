@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV /home/valen/Desktop/Programacion/FinalDBA-TorassaColomberoValentin/venv
+set -gx VIRTUAL_ENV '/home/valen/Downloads/FinalDBA-TorassaColomberoValentin/Python y Output/venv'
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH

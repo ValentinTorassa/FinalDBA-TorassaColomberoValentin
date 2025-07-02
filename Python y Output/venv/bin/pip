@@ -1,4 +1,6 @@
-#!/home/valen/Desktop/Programacion/FinalDBA-TorassaColomberoValentin/venv/bin/python3
+#!/bin/sh
+'''exec' "/home/valen/Downloads/FinalDBA-TorassaColomberoValentin/Python y Output/venv/bin/python3" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys
