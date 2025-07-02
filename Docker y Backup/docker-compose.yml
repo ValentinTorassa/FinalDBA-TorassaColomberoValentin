@@ -17,3 +17,10 @@ services:
 
 volumes:
   pgdata:
+
+
+# docker ps -a
+# docker start postgres-final
+# docker stop postgres-final
+# docker rm postgres-final
+# docker compose up -d

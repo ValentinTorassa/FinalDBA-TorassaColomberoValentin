@@ -39,3 +39,18 @@ print("Archivo REGINFO_UAI_CBTE.txt generado correctamente.")
 # Cerrar conexión
 cursor.close()
 conn.close()
+
+"""
+rm -rf venv
+
+sudo apt update
+sudo apt install python3-venv python3-pip -y
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip install --upgrade pip
+
+pip install psycopg2-binary
+"""
